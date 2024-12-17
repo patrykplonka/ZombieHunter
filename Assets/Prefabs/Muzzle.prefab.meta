@@ -1,7 +1,21 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 2da1492ca24297445a191cb85e20eee0
+=======
+guid: 645cf281dc9653e47beaf015524bec88
+>>>>>>> Stashed changes
 PrefabImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< Updated upstream
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238068
+  packageName: Undead Survivor Assets Pack
+  packageVersion: 1.3
+  assetPath: Assets/Undead Survivor/Complete Pack.unitypackage
+  uploadId: 633846
+=======
+>>>>>>> Stashed changes

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/Sprites/Run 0.controller.meta
 guid: 26ddc94d09478aa4fbcb88085ad46675
+=======
+guid: c48f70fea64b1d24c82bab4274b4310e
+>>>>>>> Stashed changes:Assets/Animations/EnemyHit.anim.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000

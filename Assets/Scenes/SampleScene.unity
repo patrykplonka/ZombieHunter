@@ -440,37 +440,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 282006461382546022, guid: 8aec14d96e37e564d87daa7c2c5e4fc6, type: 3}
   timeBetweenSpawns: 0.5
---- !u!1 &302220526
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 302220527}
-  m_Layer: 0
-  m_Name: Enemies
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &302220527
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 302220526}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.9527853, y: 0.031114697, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &508739923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,6 +1035,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+<<<<<<< Updated upstream
 --- !u!1 &858209607
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,6 +1243,8 @@ Transform:
   - {fileID: 889905931}
   m_Father: {fileID: 1941555460}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1143314390
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,6 +1332,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1280289971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1280289972}
+  m_Layer: 0
+  m_Name: Enemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1280289972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280289971}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.07265407, y: 0.058459453, z: -0.01009112}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1675160006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1773,7 +1776,11 @@ Transform:
   - {fileID: 288484165}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1001 &4657548802989120528
+=======
+--- !u!1001 &7521713356919693395
+>>>>>>> Stashed changes
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1781,6 +1788,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< Updated upstream
     - target: {fileID: 909347710314456118, guid: 3f3a818a023dcd641ac8be37fdeb5aae, type: 3}
       propertyPath: m_Name
       value: Gun
@@ -1837,11 +1845,69 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+=======
+    - target: {fileID: 1867180818586133657, guid: 6a9dea635c72cb549b5299260ab5eea5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867180818586133657, guid: 6a9dea635c72cb549b5299260ab5eea5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867180818586133657, guid: 6a9dea635c72cb549b5299260ab5eea5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867180818586133657, guid: 6a9dea635c72cb549b5299260ab5eea5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867180818586133657, guid: 6a9dea635c72cb549b5299260ab5eea5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867180818586133657, guid: 6a9dea635c72cb549b5299260ab5eea5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867180818586133657, guid: 6a9dea635c72cb549b5299260ab5eea5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867180818586133657, guid: 6a9dea635c72cb549b5299260ab5eea5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867180818586133657, guid: 6a9dea635c72cb549b5299260ab5eea5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867180818586133657, guid: 6a9dea635c72cb549b5299260ab5eea5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6017545679965252819, guid: 6a9dea635c72cb549b5299260ab5eea5, type: 3}
+      propertyPath: m_Name
+      value: Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092730172313697382, guid: 6a9dea635c72cb549b5299260ab5eea5, type: 3}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 657453244940797966, guid: ba3e1319eb94d634798a640e644f8eb2, type: 3}
+    - target: {fileID: 9192004759250265639, guid: 6a9dea635c72cb549b5299260ab5eea5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.596
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< Updated upstream
   m_SourcePrefab: {fileID: 100100000, guid: 3f3a818a023dcd641ac8be37fdeb5aae, type: 3}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 6a9dea635c72cb549b5299260ab5eea5, type: 3}
+>>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1852,7 +1918,11 @@ SceneRoots:
   - {fileID: 651544651}
   - {fileID: 1978023968}
   - {fileID: 1767216301}
-  - {fileID: 302220527}
   - {fileID: 157249905}
+<<<<<<< Updated upstream
   - {fileID: 4657548802989120528}
   - {fileID: 1941555460}
+=======
+  - {fileID: 1280289972}
+  - {fileID: 7521713356919693395}
+>>>>>>> Stashed changes
