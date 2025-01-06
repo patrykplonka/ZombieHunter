@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
         currentHealth = maxHealth;
         target = GameObject.Find("Player").transform;
         anim = GetComponent<Animator>();
+        // test
     }
 
     private void Update()
