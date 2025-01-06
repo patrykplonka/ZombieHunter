@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
     public void Hit(int damage)
     {
         currentHealth -= damage;
-        anim.SetTrigger("Hit");
+        anim.SetTrigger("hit");
 
         if (currentHealth <= 0)
         {
